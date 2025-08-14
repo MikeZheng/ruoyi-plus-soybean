@@ -234,7 +234,10 @@ const local: App.I18n.Schema = {
     exception: 'Exception',
     exception_403: '403',
     exception_404: '404',
-    exception_500: '500'
+    exception_500: '500',
+    env: 'Environment',
+    'env_deploy-unit': 'Deploy Unit',
+    env_subsystem: 'Subsystem'
   },
   menu: {
     system_tenant: 'Tenant Management',

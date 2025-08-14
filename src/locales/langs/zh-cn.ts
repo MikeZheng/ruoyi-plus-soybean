@@ -234,7 +234,10 @@ const local: App.I18n.Schema = {
     exception: '异常页',
     exception_403: '403',
     exception_404: '404',
-    exception_500: '500'
+    exception_500: '500',
+    env: '环境配置',
+    'env_deploy-unit': '部署单元',
+    env_subsystem: '物理子系统'
   },
   menu: {
     system_tenant: '租户管理',

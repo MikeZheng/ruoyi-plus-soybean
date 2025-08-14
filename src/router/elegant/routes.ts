@@ -69,6 +69,35 @@ export const generatedRoutes: GeneratedRoute[] = [
     ]
   },
   {
+    name: 'env',
+    path: '/env',
+    component: 'layout.base',
+    meta: {
+      title: 'env',
+      i18nKey: 'route.env'
+    },
+    children: [
+      {
+        name: 'env_deploy-unit',
+        path: '/env/deploy-unit',
+        component: 'view.env_deploy-unit',
+        meta: {
+          title: 'env_deploy-unit',
+          i18nKey: 'route.env_deploy-unit'
+        }
+      },
+      {
+        name: 'env_subsystem',
+        path: '/env/subsystem',
+        component: 'view.env_subsystem',
+        meta: {
+          title: 'env_subsystem',
+          i18nKey: 'route.env_subsystem'
+        }
+      }
+    ]
+  },
+  {
     name: 'home',
     path: '/home',
     component: 'layout.base$view.home',

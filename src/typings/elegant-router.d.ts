@@ -27,6 +27,9 @@ declare module "@elegant-router/types" {
     "demo": "/demo";
     "demo_demo": "/demo/demo";
     "demo_tree": "/demo/tree";
+    "env": "/env";
+    "env_deploy-unit": "/env/deploy-unit";
+    "env_subsystem": "/env/subsystem";
     "home": "/home";
     "iframe-page": "/iframe-page/:url";
     "login": "/login/:module(pwd-login|code-login|register|reset-pwd|bind-wechat)?";
@@ -92,6 +95,7 @@ declare module "@elegant-router/types" {
     | "404"
     | "500"
     | "demo"
+    | "env"
     | "home"
     | "iframe-page"
     | "login"
@@ -126,6 +130,8 @@ declare module "@elegant-router/types" {
     | "user-center"
     | "demo_demo"
     | "demo_tree"
+    | "env_deploy-unit"
+    | "env_subsystem"
     | "home"
     | "monitor_cache"
     | "monitor_logininfor"
