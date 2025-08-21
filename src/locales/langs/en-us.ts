@@ -39,6 +39,8 @@ const local: App.I18n.Schema = {
     deleteSuccess: 'Delete Success',
     confirmDelete: 'Are you sure you want to delete?',
     edit: 'Edit',
+    view: 'View',
+    return: 'Return',
     download: 'Download',
     warning: 'Warning',
     error: 'Error',
@@ -237,7 +239,15 @@ const local: App.I18n.Schema = {
     exception_500: '500',
     env: 'Environment',
     'env_deploy-unit': 'Deploy Unit',
-    env_subsystem: 'Subsystem'
+    env_subsystem: 'Subsystem',
+    env_cvm: 'CVM',
+    env_redis: 'Redis',
+    env_elb: 'ELB',
+    env_oracle: 'Oracle',
+    env_tenant: 'Env Tenant',
+    env_vpc: 'VPC',
+    'env_mysql-enhance': 'MySQL',
+    tool_json: 'JSON Tool'
   },
   menu: {
     system_tenant: 'Tenant Management',

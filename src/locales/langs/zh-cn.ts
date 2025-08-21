@@ -39,6 +39,8 @@ const local: App.I18n.Schema = {
     deleteSuccess: '删除成功',
     confirmDelete: '确认删除吗？',
     edit: '编辑',
+    view: '查看',
+    return: '返回',
     download: '下载',
     warning: '警告',
     error: '错误',
@@ -237,7 +239,15 @@ const local: App.I18n.Schema = {
     exception_500: '500',
     env: '环境配置',
     'env_deploy-unit': '部署单元',
-    env_subsystem: '物理子系统'
+    env_subsystem: '物理子系统',
+    env_cvm: 'CVM 信息',
+    env_elb: 'ELB 信息',
+    env_oracle: 'Oracle 信息',
+    env_redis: 'Redis 信息',
+    env_tenant: '环境租户信息',
+    env_vpc: 'VPC 信息',
+    'env_mysql-enhance': 'MySQL 增强',
+    tool_json: 'JSON 工具'
   },
   menu: {
     system_tenant: '租户管理',

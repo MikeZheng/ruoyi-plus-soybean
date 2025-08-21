@@ -174,8 +174,15 @@ const routeMap: RouteMap = {
   "demo_demo": "/demo/demo",
   "demo_tree": "/demo/tree",
   "env": "/env",
+  "env_cvm": "/env/cvm",
   "env_deploy-unit": "/env/deploy-unit",
+  "env_elb": "/env/elb",
+  "env_mysql-enhance": "/env/mysql-enhance",
+  "env_oracle": "/env/oracle",
+  "env_redis": "/env/redis",
   "env_subsystem": "/env/subsystem",
+  "env_tenant": "/env/tenant",
+  "env_vpc": "/env/vpc",
   "home": "/home",
   "iframe-page": "/iframe-page/:url",
   "login": "/login/:module(pwd-login|code-login|register|reset-pwd|bind-wechat)?",
@@ -201,6 +208,7 @@ const routeMap: RouteMap = {
   "system_user": "/system/user",
   "tool": "/tool",
   "tool_gen": "/tool/gen",
+  "tool_json": "/tool/json",
   "user-center": "/user-center"
 };
 

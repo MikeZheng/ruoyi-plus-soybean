@@ -78,6 +78,15 @@ export const generatedRoutes: GeneratedRoute[] = [
     },
     children: [
       {
+        name: 'env_cvm',
+        path: '/env/cvm',
+        component: 'view.env_cvm',
+        meta: {
+          title: 'env_cvm',
+          i18nKey: 'route.env_cvm'
+        }
+      },
+      {
         name: 'env_deploy-unit',
         path: '/env/deploy-unit',
         component: 'view.env_deploy-unit',
@@ -87,12 +96,66 @@ export const generatedRoutes: GeneratedRoute[] = [
         }
       },
       {
+        name: 'env_elb',
+        path: '/env/elb',
+        component: 'view.env_elb',
+        meta: {
+          title: 'env_elb',
+          i18nKey: 'route.env_elb'
+        }
+      },
+      {
+        name: 'env_mysql-enhance',
+        path: '/env/mysql-enhance',
+        component: 'view.env_mysql-enhance',
+        meta: {
+          title: 'env_mysql-enhance',
+          i18nKey: 'route.env_mysql-enhance'
+        }
+      },
+      {
+        name: 'env_oracle',
+        path: '/env/oracle',
+        component: 'view.env_oracle',
+        meta: {
+          title: 'env_oracle',
+          i18nKey: 'route.env_oracle'
+        }
+      },
+      {
+        name: 'env_redis',
+        path: '/env/redis',
+        component: 'view.env_redis',
+        meta: {
+          title: 'env_redis',
+          i18nKey: 'route.env_redis'
+        }
+      },
+      {
         name: 'env_subsystem',
         path: '/env/subsystem',
         component: 'view.env_subsystem',
         meta: {
           title: 'env_subsystem',
           i18nKey: 'route.env_subsystem'
+        }
+      },
+      {
+        name: 'env_tenant',
+        path: '/env/tenant',
+        component: 'view.env_tenant',
+        meta: {
+          title: 'env_tenant',
+          i18nKey: 'route.env_tenant'
+        }
+      },
+      {
+        name: 'env_vpc',
+        path: '/env/vpc',
+        component: 'view.env_vpc',
+        meta: {
+          title: 'env_vpc',
+          i18nKey: 'route.env_vpc'
         }
       }
     ]
@@ -346,6 +409,15 @@ export const generatedRoutes: GeneratedRoute[] = [
           i18nKey: 'route.tool_gen',
           localIcon: 'menu-code',
           order: 2
+        }
+      },
+      {
+        name: 'tool_json',
+        path: '/tool/json',
+        component: 'view.tool_json',
+        meta: {
+          title: 'tool_json',
+          i18nKey: 'route.tool_json'
         }
       }
     ]

@@ -38,6 +38,7 @@ declare module 'vue' {
     'IconMaterialSymbols:add': typeof import('~icons/material-symbols/add')['default']
     'IconMaterialSymbols:deleteOutline': typeof import('~icons/material-symbols/delete-outline')['default']
     'IconMaterialSymbols:downloadRounded': typeof import('~icons/material-symbols/download-rounded')['default']
+    'IconMaterialSymbols:fileUpload': typeof import('~icons/material-symbols/file-upload')['default']
     'IconMaterialSymbols:imageOutline': typeof import('~icons/material-symbols/image-outline')['default']
     'IconMaterialSymbols:refreshRounded': typeof import('~icons/material-symbols/refresh-rounded')['default']
     'IconMaterialSymbols:syncOutline': typeof import('~icons/material-symbols/sync-outline')['default']

@@ -72,12 +72,6 @@ const {
       width: 64
     },
     {
-      key: 'id',
-      title: '主键',
-      align: 'center',
-      minWidth: 120
-    },
-    {
       key: 'subsystemCode',
       title: '物理子系统代码',
       align: 'center',
@@ -122,84 +116,6 @@ const {
     {
       key: 'deployUser',
       title: '部署用户',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'deployPath',
-      title: '部署目录',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'processName',
-      title: '进程名称',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'processPurpose',
-      title: '进程用途',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'runType',
-      title: '使用方式',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'isAutoWhenBoot',
-      title: '是否开机启动',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'logPath',
-      title: '日志目录',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'txLogPath',
-      title: '交易监控日志目录',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'startCmd',
-      title: '启动命令',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'stopCmd',
-      title: '停止命令',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'contact',
-      title: '联系人',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'developer',
-      title: '开发人',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'baseSoft',
-      title: '基础软件或中间件',
-      align: 'center',
-      minWidth: 120
-    },
-    {
-      key: 'baseSoftVersion',
-      title: '基础软件或中间件的版本',
       align: 'center',
       minWidth: 120
     },

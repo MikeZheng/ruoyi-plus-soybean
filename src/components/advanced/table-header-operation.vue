@@ -13,13 +13,15 @@ interface Props {
   showAdd?: boolean;
   showDelete?: boolean;
   showExport?: boolean;
+  showImport?: boolean; // 新增导入按钮显示控制
 }
 
 withDefaults(defineProps<Props>(), {
   itemAlign: undefined,
   showAdd: true,
   showDelete: true,
-  showExport: false
+  showExport: false,
+  showImport: false // 默认不显示导入按钮
 });
 
 interface Emits {
@@ -27,6 +29,7 @@ interface Emits {
   (e: 'delete'): void;
   (e: 'refresh'): void;
   (e: 'export'): void;
+  (e: 'import'): void;
 }
 
 const emit = defineEmits<Emits>();
@@ -49,6 +52,10 @@ function refresh() {
 
 function handleExport() {
   emit('export');
+}
+
+function handleImport() {
+  emit('import');
 }
 </script>
 
@@ -78,6 +85,13 @@ function handleExport() {
           <icon-material-symbols:download-rounded class="text-icon" />
         </template>
         {{ $t('common.export') }}
+      </NButton>
+      <!-- 新增导入按钮 -->
+      <NButton v-if="showImport" size="small" ghost @click="handleImport">
+        <template #icon>
+          <icon-material-symbols:file-upload class="text-icon" />
+        </template>
+        {{ $t('common.import') }}
       </NButton>
     </slot>
     <slot name="after"></slot>

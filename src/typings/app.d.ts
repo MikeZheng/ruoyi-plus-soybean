@@ -354,6 +354,8 @@ declare namespace App {
         deleteSuccess: string;
         confirmDelete: string;
         edit: string;
+        view: string;
+        return: string;
         download: string;
         warning: string;
         error: string;

@@ -121,7 +121,7 @@ const {
             <ButtonIcon
               type="primary"
               text
-              icon="material-symbols:drive-file-rename-outline-outline"
+              icon="material-symbols:drive-file-rename-outline"
               tooltipContent={$t('common.edit')}
               onClick={() => edit(row.tableId!)}
             />

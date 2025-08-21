@@ -28,8 +28,15 @@ declare module "@elegant-router/types" {
     "demo_demo": "/demo/demo";
     "demo_tree": "/demo/tree";
     "env": "/env";
+    "env_cvm": "/env/cvm";
     "env_deploy-unit": "/env/deploy-unit";
+    "env_elb": "/env/elb";
+    "env_mysql-enhance": "/env/mysql-enhance";
+    "env_oracle": "/env/oracle";
+    "env_redis": "/env/redis";
     "env_subsystem": "/env/subsystem";
+    "env_tenant": "/env/tenant";
+    "env_vpc": "/env/vpc";
     "home": "/home";
     "iframe-page": "/iframe-page/:url";
     "login": "/login/:module(pwd-login|code-login|register|reset-pwd|bind-wechat)?";
@@ -55,6 +62,7 @@ declare module "@elegant-router/types" {
     "system_user": "/system/user";
     "tool": "/tool";
     "tool_gen": "/tool/gen";
+    "tool_json": "/tool/json";
     "user-center": "/user-center";
   };
 
@@ -130,8 +138,15 @@ declare module "@elegant-router/types" {
     | "user-center"
     | "demo_demo"
     | "demo_tree"
+    | "env_cvm"
     | "env_deploy-unit"
+    | "env_elb"
+    | "env_mysql-enhance"
+    | "env_oracle"
+    | "env_redis"
     | "env_subsystem"
+    | "env_tenant"
+    | "env_vpc"
     | "home"
     | "monitor_cache"
     | "monitor_logininfor"
@@ -151,6 +166,7 @@ declare module "@elegant-router/types" {
     | "system_tenant"
     | "system_user"
     | "tool_gen"
+    | "tool_json"
   >;
 
   /**
